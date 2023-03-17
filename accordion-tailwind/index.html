@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div
+      class="relative bg-white text-black p-8 md:p-16 shadow-lg rounded-xl w-[600px] max-w-full"
+    >
+      <div
+        class="bg-purple-700 w-96 h-96 rounded-full absolute -top-12 -left-12 -z-10 opacity-10"
+      ></div>
+      <div
+        class="bg-purple-700 w-96 h-96 rounded-full absolute -bottom-24 -right-12 -z-10 opacity-10"
+      ></div>
+      <h1 class="text-3xl font-bold text-center">
+        The barebones of an accordion
+      </h1>
+      <p class="text-center my-4 max-w-md mx-auto">
+        Highlighting important details of a section andrevealing more details
+        upon a tap or click, if necessary
+      </p>
+
+      <div class="mt-16 divide-y-2 space-y-2">
+        <div class="accordion-item cursor-pointer text-gray-500">
+          <div class="flex justify-between p-2 text-xl">
+            When and how it should be used?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="border rounded-full p-1 flex-none"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line class="line" x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </div>
+          <div class="toggle p-2 hidden">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure
+            esse non at consequuntur deleniti odio aut, odit voluptas corporis
+            enim eius minima eaque voluptatum mollitia minus nihil. Placeat,
+            sequi.
+            <br /><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            amet odit, corporis molestiae cupiditate et obcaecati eum aliquid
+            quas eaque!
+          </div>
+        </div>
+        <div class="accordion-item cursor-pointer text-gray-500">
+          <div class="flex justify-between p-2 text-xl">
+            How to choose an icon to indicate expansion?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="border rounded-full p-1 flex-none"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line class="line" x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </div>
+          <div class="toggle p-2 hidden">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure
+            esse non at consequuntur deleniti odio aut, odit voluptas corporis
+            enim eius minima eaque voluptatum mollitia minus nihil. Placeat,
+            sequi.
+            <br /><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            amet odit, corporis molestiae cupiditate et obcaecati eum aliquid
+            quas eaque!
+          </div>
+        </div>
+        <div class="accordion-item cursor-pointer text-gray-500">
+          <div class="flex justify-between p-2 text-xl">
+            What's an accordion?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="border rounded-full p-1 flex-none"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line class="line" x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </div>
+          <div class="toggle p-2 hidden">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure
+            esse non at consequuntur deleniti odio aut, odit voluptas corporis
+            enim eius minima eaque voluptatum mollitia minus nihil. Placeat,
+            sequi.
+            <br /><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            amet odit, corporis molestiae cupiditate et obcaecati eum aliquid
+            quas eaque!
+          </div>
+        </div>
+        <div class="accordion-item cursor-pointer text-gray-500">
+          <div class="flex justify-between p-2 text-xl">
+            What if the user clicks on a collapsed card while another card is
+            open?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="border rounded-full p-1 flex-none"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line class="line" x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </div>
+          <div class="toggle p-2 hidden">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure
+            esse non at consequuntur deleniti odio aut, odit voluptas corporis
+            enim eius minima eaque voluptatum mollitia minus nihil. Placeat,
+            sequi.
+            <br /><br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            amet odit, corporis molestiae cupiditate et obcaecati eum aliquid
+            quas eaque!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
