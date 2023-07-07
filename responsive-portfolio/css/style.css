@@ -433,6 +433,24 @@ section {
   border: 0.2rem solid var(--main-color);
   border-radius: 0.6rem;
   padding: 0.5rem 1.5rem;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.skills-box .skills-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--bg-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.skills-box .skills-content:hover::before {
+  width: 100%;
 }
 
 .skills-content .progress {
@@ -494,4 +512,14 @@ section {
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
   width: 60%;
+}
+
+.contact .heading {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contact .heading span {
+  color: var(--main-color);
 }
