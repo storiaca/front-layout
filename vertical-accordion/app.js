@@ -1,6 +1,8 @@
 const columns = document.querySelectorAll(".column");
 const innerElements = document.querySelectorAll(".inner-element");
 
+const test = document.getElementById("test");
+
 columns.forEach((click) => {
   click.addEventListener("click", (event) => {
     // Iterate over all columns
@@ -25,3 +27,26 @@ columns.forEach((click) => {
     });
   });
 });
+
+test.classList.remove("elementor-item-active");
+const aboutLink = docuemnt.getElementById("about-link");
+const servicesLink = docuemnt.getElementById("services-link");
+
+document.addEventListener("DOMContentLoaded", function () {
+  const aboutLink = document.querySelector("[href='#about-us']");
+  const servicesLink = document.querySelector("[href='#services']");
+
+  aboutLink.classList.remove("elementor-item-active");
+  servicesLink.classList.remove("elementor-item-active");
+});
+
+//<p>&copy; Sava Solutions 2024</p>;
+
+// contact@savaitsolutions.com
+
+// Recaptcha Use this site key in the HTML code your site serves to users. 
+
+6LfFeG8qAAAAAGXQlXUpINdlDixK0McG7lqdtXzc
+
+// Server side intergation, Secret Key
+6LfFeG8qAAAAAKY3pGE8rd2CHBoAYtWviaakVb2m
