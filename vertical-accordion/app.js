@@ -44,9 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // contact@savaitsolutions.com
 
-// Recaptcha Use this site key in the HTML code your site serves to users. 
+// Recaptcha Use this site key in the HTML code your site serves to users.
 
-6LfFeG8qAAAAAGXQlXUpINdlDixK0McG7lqdtXzc
+const grid = document.querySelector(".rh_view_type .grid");
 
-// Server side intergation, Secret Key
-6LfFeG8qAAAAAKY3pGE8rd2CHBoAYtWviaakVb2m
+const list = document.querySelector(".rh_view_type .list");
+
+grid.classList.add("active");
+list.classList.remove("active");
